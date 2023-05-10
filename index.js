@@ -19,8 +19,8 @@ app.get("/", function(req, res) {
 app.post("/", function(req, res){
 
 //use n1 for radium and n2 for height
-  var radius = Number(req.body.n1);
-  var volume = Number(req.body.n2);
+  var radius = Number(req.body.radius);
+  var volume = Number(req.body.volume);
 
 // does the computation of the input variables, as numbers
 //This is a new comment that is gor GitHub
